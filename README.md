@@ -6,3 +6,10 @@ this code is not suitable for production environment or for use on datasets too 
 ~30MB dataset.
 
 ## Usage
+Export a chat or an account through your Telegram client, then use the distribution module to get a CSV output of the distributions.
+
+You can use Google Docs to plot the data.
+
+```bash
+python3 /path/to/project/distribution.py -f /path/to/export/result.json
+```
